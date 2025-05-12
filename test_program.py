@@ -10,7 +10,7 @@ def test_program():
     for filename in files_list:
         assert filename in dir_files, f'Файл `{filename}` не найден.'
 
-    try:
+    try:``
         import program
     except Exception as e:
         assert False, (
